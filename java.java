@@ -7,9 +7,10 @@ public class java {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
        
-System.out.print("Enter your name: ");
-String name = in.nextLine();
-System.out.println("Name is: " + name);
-in.close();
-    }
+        int angka[] = {3,1,42,24,12};
+
+        // menggunakan perulangan For each untuk menampilkan angka
+        for( int x : angka ){
+            System.out.print(x + " ");
+    }}
 }
